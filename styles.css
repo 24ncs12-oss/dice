@@ -1,0 +1,40 @@
+.gradient-background{
+     background: linear-gradient(300deg, #784848,#d18a8a,#9dbfdd);
+     background-size: 180% 180%;
+     animation: gradient-animation 18s ease infinite;
+     
+}
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.container{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: #784848;
+    font-size: x-large;
+    
+}
+.dice-container{
+ display: flex;
+    width: 100vh;
+    margin: auto;
+    gap: 100px;
+    align-items: center;
+    justify-items: center;
+}
+.dice{
+    font-family:cursive;
+    font-size: large;
+    font-weight:bolder;
+    color:#077e91;
+    text-align: center;
+}
